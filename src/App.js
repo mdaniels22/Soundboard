@@ -14,7 +14,7 @@ import tink from "./media/tink.wav";
 import tom from "./media/tom.wav";
 
 function App() {
-  const [playing, setPlaying] = useState("");
+  // const [playing, setPlaying] = useState("");
   const keyRef = useRef([]);
   keyRef.current = [];
 
